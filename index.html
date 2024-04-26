@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeMat Jiu Jitsu Store</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="titulo">
+                <h1>LeMat Jiu Jitsu Store</h1>
+                <img class="logo" src="img/logoacademia1.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="container">
+            <div class="menu">
+                <ul>
+                    <li>Kimonos</li>
+                    <li>Nogi</li>
+                    <li>Street</li>
+                    <li>Accesorios</li>
+                </ul>
+            </div>
+            <div class="productos" id="productos">
+                <!-- JS -->
+            </div>
+        </section>
+        <section class="carritoEstilo">
+            <h2 class="titulo">Carrito</h2>
+            <div class="carrito">
+                <div id="carrito-vacio">
+                    <h4 class="carritoVacio">Carrito Vacío</h4>
+                </div>
+                <div class="carrito-productos" id="carrito-productos">
+                    <!-- JS -->
+                </div>
+                <div class="carrito-total">
+                    <h2>Total: <span id="carrito-total">$0</span></h2>
+                </div>
+                <button class="boton-vaciar-o-confirmar" id="vaciar">Vaciar carrito</button>
+                <button class="boton-vaciar-o-confirmar" id="confirmar">Confirmar compra</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>LeMat Jiu Jitsu Store ©</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

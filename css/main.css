@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+
+}
+
+.carritoEstilo {
+    background-color: rgba(0, 0, 0, 0.807);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: large;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li {
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    border: solid thin;
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+p {
+    font-size: x-large;
+}
+
+li:hover {
+    background: black;
+    color: whitesmoke;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header {
+    background-color:whitesmoke;
+    color: black;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    margin-bottom: 10px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.producto {
+    background-color: rgba(0, 0, 0, 0.674);
+    padding: .5rem;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.producto-img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.producto-btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+    padding: 7px;
+    font-weight: 600;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    border: solid thin;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.producto-btn:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.carrito-productos {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.carrito-producto {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--clr-black);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    color: var(--clr-white);
+}
+
+.carritoVacio {
+    margin: 10px;
+}
+
+.carrito-producto-btn {
+    background-color: whitesmoke;
+    color: black;
+    font-size: x-large;
+    font-weight: 900;
+    border: 0;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton-vaciar-o-confirmar {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    border: solid thin;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.boton-vaciar-o-confirmar:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.d-none {
+    display: none;
+}
+
+.footer {
+    padding-block: 2rem;
+    display: flex;
+    justify-content: end;
+}
